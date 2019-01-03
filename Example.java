@@ -4,8 +4,9 @@ public class Example {
     // Your amazing code goes here...
       System.out.println("We are making a new PEZ dispenser");
     PezDispenser dispenser = new PezDispenser ();
+    dispenser.characterName = "Darth Vader";
     System.out.printf("The dispenser is %s %n",
-                       dispenser.characterName);
+    				dispenser.characterName);
   }
 
 }
